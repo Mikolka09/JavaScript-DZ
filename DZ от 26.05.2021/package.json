@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "coolors": "^0.0.2"
+  }
+}
