@@ -24,4 +24,3 @@ let arrSrc = ['index.html', 'https://google.com', 'https://itstep.org', 'https:/
     div.appendChild(ul);
     body.appendChild(div);
     let arrLi = document.body.getElementsByTagName(li);
-    alert(arrLi[0]);
