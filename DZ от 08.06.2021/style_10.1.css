@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    background-color: burlywood;
+    margin-top: 50px;
+    margin-left: 50px
+}
+
+.container_list{
+    margin-left:20px; 
+    font-size:36pt; 
+    padding-top:10px; 
+    padding-bottom:10px;
+    padding-right: 10px
+}
+
+.list_item{
+    color:blue;
+    text-decoration: none;
+}
