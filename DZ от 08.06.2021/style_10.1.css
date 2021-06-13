@@ -1,4 +1,6 @@
-* {
+*,
+:after,
+:before {
     box-sizing: border-box;
 }
 
@@ -9,15 +11,15 @@
     margin-left: 50px
 }
 
-.container_list{
-    margin-left:20px; 
-    font-size:36pt; 
-    padding-top:10px; 
-    padding-bottom:10px;
+.container_list {
+    margin-left: 20px;
+    font-size: 36pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 10px
 }
 
-.list_item{
-    color:blue;
+.list_item {
+    color: blue;
     text-decoration: none;
 }

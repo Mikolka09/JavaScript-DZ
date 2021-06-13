@@ -1,0 +1,26 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    margin: 50px 50px;
+    background-color: bisque;
+    font-size:26pt;
+}
+
+.container_fluid{
+    margin: 30px;
+    cursor: default;
+}
+.container_list{
+    transition: .2s linear
+}
+
+.container_list:hover{
+    font-size: 30pt;
+    font-weight:700;  
+}
+
