@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 35%;
+    width: 900px;
     margin: 100px;
     background-color: blanchedalmond;
     font-family: arial;
@@ -41,16 +41,4 @@
     height: 40px;
     font-size:18pt;
     font-weight: 700;
-}
-
-#container_date{
-    margin-top: 100px;
-    text-align: left;
-    margin-left: 80px;
-}
-
-.container_table{
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 80px;
 }
