@@ -17,7 +17,7 @@ window.onload = function () {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(geolocationSuccess);
     } else {
-        res.innerHTML = "Ваш браузер не поддерживает геолокацию";
+        res.innerHTML = "Ваш браузер не поддерживает геолокацию!";
     }
 
     function geolocationSuccess(position) {
@@ -56,4 +56,18 @@ window.onload = function () {
         "Пользовательский агент браузера - " + navigator.userAgent;
     document.getElementById("onLine").innerHTML =
         "Браузер подключен к сети Интернет? - " + `${(navigator.onLine)? 'ДА!':'НЕТ!'}`;
+
+
+    //Данные об экране пользователя
+    document.getElementById("screenWidth").innerHTML =
+        "Ширина экрана в пикселях - " + screen.width;
+    document.getElementById("screenHeight").innerHTML =
+        "Высота экрана в пикселях - " + screen.height;
+    document.getElementById("screenColorDepth").innerHTML =
+        "Глубина цвета экрана - " + screen.colorDepth;
+    document.getElementById("screenPixelDepth").innerHTML =
+        "Количество битов на пиксель экрана - " + screen.pixelDepth;
+    
+  
+
 }
