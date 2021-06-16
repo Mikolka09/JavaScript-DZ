@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#result{
+#result, #result_2{
     text-align: center;
 }
 
@@ -10,4 +10,11 @@
     width:100%;
     height: 500px;
     border: 2px solid black;
+}
+
+#appName, #appCodeName, #product, #appVersion,
+#userAgent, #onLine{
+    margin-left: 100px;
+    font-size:16pt;
+    font-weight:600;
 }
