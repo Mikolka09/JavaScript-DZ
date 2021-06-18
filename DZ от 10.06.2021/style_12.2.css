@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 650px;
+    top: 100px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+.container_block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width:95%; 
+    left:50px;  
+    top: 30px;
+}
+
+.container_button {
+    position: absolute;
+    left:50%;
+    margin-left: -900px;;
+    bottom: 50px;
+}   
+
+#button_add {
+    width: 1800px;  
+    height: 50px;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.blockes:hover{
+    cursor: pointer;
+}
