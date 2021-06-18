@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 450px;
+    margin-left: 50px;
+    top: 100px;
+    background-color: blanchedalmond;
+}
+
+.container_box {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container_text>h2 {
+    font-size: 36pt;
+}
+
+#random_number{
+ font-size:80pt;    
+}
+
+.container_button{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+#btn{
+    width:95%;
+    height:50px;
+    font-size:16pt;
+    font-weight: 700;
+}
