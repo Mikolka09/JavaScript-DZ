@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    top: 100px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+.container_color {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 35.6%;
+    height: 165px;
+    border: 2px solid gray;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.contener_text {
+    display: inline-block;
+    width: 95%;
+    margin: 40px;
+}
+
+.cont_color{
+    width:70px;
+    height: 70px;
+    border: 2px solid gray;
+    margin:5px;
+}
+
+.cont_color:hover{
+    cursor: pointer;
+}
+
+.cont_text {
+    margin: 0 auto;
+    text-align: justify;
+    font-size:26pt;
+}
+
+[data-color = 'black']{
+    background-color:black;
+}
+[data-color = 'aqua']{
+    background-color:aqua;
+}
+[data-color = 'blueviolet']{
+    background-color:blueviolet;
+}
+[data-color = 'blue']{
+    background-color:blue;
+}
+[data-color = 'red']{
+    background-color:red;
+}
+[data-color = 'brown']{
+    background-color:brown;
+}
+[data-color = 'coral']{
+    background-color:coral;
+}
+[data-color = 'green']{
+    background-color:green;
+}
+[data-color = 'hotpink']{
+    background-color:hotpink;
+}
+[data-color = 'mediumslateblue']{
+    background-color:mediumslateblue;
+}
+[data-color = 'gold']{
+    background-color:gold;
+}
+[data-color = 'darkgoldenrod']{
+    background-color:darkgoldenrod;
+}
+[data-color = 'fuchsia']{
+    background-color:fuchsia;
+}
+[data-color = 'darkred']{
+    background-color:darkred;
+}
+[data-color = 'greenyellow']{
+    background-color:greenyellow;
+}
+[data-color = 'cyan']{
+    background-color:cyan;
+}
+[data-color = 'magenta']{
+    background-color:magenta;
+}
+[data-color = 'purple']{
+    background-color:purple;
+}
