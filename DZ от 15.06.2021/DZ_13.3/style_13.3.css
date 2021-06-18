@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: blanchedalmond;
+}
+
+.container_box {
+    display:block;
+    width: 95%;
+    margin: 0 auto;
+    top: 20px;
+    bottom: 20px;
+}
+
+.container_button {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#btn_add {
+    width: 200px;
+    height: 40px;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container_text>p {
+    display: block;
+    text-align: justify;
+    font-size: 18pt;
+    font-family: arial, sans-serif;
+    line-height: 1.4em;
+    margin-bottom: 20px;;
+}
